@@ -1,0 +1,35 @@
+/* Container for the dropdown menu */
+.dropdownMenu {
+    position: relative;
+  }
+  
+  /* Button that triggers the dropdown to open or close */
+  .dropdownButton {
+    cursor: pointer;
+    background-color: #f3f3f3;
+    border: 1px solid #ccc;
+    padding: 10px;
+  }
+  
+  /* Container that holds the dropdown options */
+  .dropdownOptions {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    z-index: 1;
+  }
+  
+  /* Individual dropdown option styles */
+  .dropdownOption {
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  /* Style for selected option */
+  .selected {
+    background-color: #f1f1f1;
+  }
+  
